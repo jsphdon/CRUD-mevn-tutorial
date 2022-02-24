@@ -1,6 +1,6 @@
 # mevn-tutorial
 
-This is an online refresher tutorial for the On-the-Job Training using MEAN Stack
+This is an online refresher tutorial for the On-the-Job Training using MEVN Stack
 
 Online tutorial source:
 
