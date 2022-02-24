@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfrontend"]=self["webpackChunkfrontend"]||[]).push([[443],{934:function(n,e,t){t.r(e),t.d(e,{default:function(){return s}});var u=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("h1",[n._v("About Page")])},r=[],l=t(1001),f={},c=(0,l.Z)(f,u,r,!1,null,null,null),s=c.exports}}]);
+//# sourceMappingURL=about-legacy.e8a26d67.js.map

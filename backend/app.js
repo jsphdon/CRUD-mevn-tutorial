@@ -21,5 +21,12 @@ mongoose.connect(process.env.DB_URI).then(() => console.log("Connected to the da
 // routes prefix
 app.use("/api/post", require("./route/routes"));
 
+if(process.env.NODE_ENV === 'production'){
+  app.use(express.static(__dirname+'/dist/'));
+  app.get('*', (req, res) => {
+    res.sendFile(__dirname+ "/dist/index.html");
+  })
+}
+
 // start server
 app.listen(port, () => console.log(`server running at http://localhost:${port}`));
